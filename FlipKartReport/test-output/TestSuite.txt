@@ -1,8 +1,13 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 339.241 s <<< FAILURE! - in TestSuite
-com.Flipkart.Electonics.Mobile.MobilePhonesIndex.mobile  Time elapsed: 37.561 s  <<< FAILURE!
-junit.framework.AssertionFailedError
-	at com.Flipkart.Electonics.Mobile.MobilePhonesIndex.mobile(MobilePhonesIndex.java:80)
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 4.435 s <<< FAILURE! - in TestSuite
+com.Flipkart.Electonics.Mobile.MobilePhonesIndex.BrowserSetup  Time elapsed: 4.159 s  <<< FAILURE!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'JAYKISHAN-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
+Driver info: driver.version: RemoteWebDriver
+Caused by: java.net.ConnectException: Failed to connect to /192.168.0.104:4444
+Caused by: java.net.ConnectException: Connection refused: connect
 

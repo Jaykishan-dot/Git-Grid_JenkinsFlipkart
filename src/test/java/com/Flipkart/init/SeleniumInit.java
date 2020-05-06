@@ -13,6 +13,7 @@ import org.apache.commons.mail.EmailException;
 import org.apache.commons.mail.HtmlEmail;
 import org.openqa.selenium.UnexpectedAlertBehaviour;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.CapabilityType;
@@ -64,9 +65,11 @@ public class SeleniumInit
 	@BeforeMethod(alwaysRun = true)
 	public void BrowserSetup() throws IOException, MessagingException, EmailException
 	{
-		/*URL remote_grid = new URL("http://192.168.0.104:4444/wd/hub");
-		DesiredCapabilities capability=null;	*/
+		URL remote_grid = new URL("http://192.168.0.104:4444/wd/hub");
+		DesiredCapabilities capability=null;	
 		Testbrowser=Common.getConfigValue("config.properties", "Browser");
+		
+		
 		
 		if(Testbrowser.equalsIgnoreCase("gecko"))
 		{
@@ -75,12 +78,13 @@ public class SeleniumInit
 		}	
 		else if (Testbrowser.contains("chrome") || Testbrowser.equalsIgnoreCase("chrome"))
 		{
+			//driver = new ChromeDriver();
 			
-			/*capability = DesiredCapabilities.chrome();
+			capability = DesiredCapabilities.chrome();
 			File driverpath = new File("Resource/chromedriver.exe");
 			String path1 = driverpath.getAbsolutePath();
-			System.setProperty("webdriver.chrome.driver",path1);*/
-			/*final ChromeOptions chromeOptions = new ChromeOptions();
+			System.setProperty("webdriver.chrome.driver",path1);
+			final ChromeOptions chromeOptions = new ChromeOptions();
 			capability.setBrowserName("chrome");
 			capability.setCapability(ChromeOptions.CAPABILITY, chromeOptions);
 			capability.setJavascriptEnabled(true);
@@ -96,13 +100,13 @@ public class SeleniumInit
 			browserVersion = capability.getVersion();
 			driver = new RemoteWebDriver(remote_grid, capability);
 			//driver= new ChromeDriver(capability);
-*/			
+			
 // test			
 			
 		}
-		//driver.get(TestURL);
+		driver.get(TestURL);
 		driver.manage().window().maximize();
-		//driver.get(TestURL);
+		
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		
 		
