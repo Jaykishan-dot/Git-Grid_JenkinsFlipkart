@@ -64,8 +64,8 @@ public class SeleniumInit
 	@BeforeMethod(alwaysRun = true)
 	public void BrowserSetup() throws IOException, MessagingException, EmailException
 	{
-		URL remote_grid = new URL("http://192.168.0.104:4444/wd/hub");
-		DesiredCapabilities capability=null;	
+		/*URL remote_grid = new URL("http://192.168.0.104:4444/wd/hub");
+		DesiredCapabilities capability=null;	*/
 		Testbrowser=Common.getConfigValue("config.properties", "Browser");
 		
 		if(Testbrowser.equalsIgnoreCase("gecko"))
@@ -79,8 +79,8 @@ public class SeleniumInit
 			/*capability = DesiredCapabilities.chrome();
 			File driverpath = new File("Resource/chromedriver.exe");
 			String path1 = driverpath.getAbsolutePath();
-			System.setProperty("webdriver.chrome.driver",path1);
-			final ChromeOptions chromeOptions = new ChromeOptions();
+			System.setProperty("webdriver.chrome.driver",path1);*/
+			/*final ChromeOptions chromeOptions = new ChromeOptions();
 			capability.setBrowserName("chrome");
 			capability.setCapability(ChromeOptions.CAPABILITY, chromeOptions);
 			capability.setJavascriptEnabled(true);
