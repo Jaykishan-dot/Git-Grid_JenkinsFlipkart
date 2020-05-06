@@ -76,7 +76,7 @@ public class SeleniumInit
 		else if (Testbrowser.contains("chrome") || Testbrowser.equalsIgnoreCase("chrome"))
 		{
 			
-			capability = DesiredCapabilities.chrome();
+			/*capability = DesiredCapabilities.chrome();
 			File driverpath = new File("Resource/chromedriver.exe");
 			String path1 = driverpath.getAbsolutePath();
 			System.setProperty("webdriver.chrome.driver",path1);
@@ -96,7 +96,7 @@ public class SeleniumInit
 			browserVersion = capability.getVersion();
 			driver = new RemoteWebDriver(remote_grid, capability);
 			//driver= new ChromeDriver(capability);
-			
+*/			
 // test			
 			
 		}
