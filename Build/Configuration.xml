@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parameter Test  Suit" parallel="tests" >
+<listeners>
+	<listener class-name="com.Flipkart.Utility.FlipkartReporter" />
+	<listener class-name="com.Flipkart.Utility.FlipkartReporterBuildSummary" />
+</listeners>
+  <test name="Build Configuration">
+
+	<classes>
+		<class name="com.Flipkart.Electonics.Mobile.MobilePhonesIndex" >
+			<methods>
+				<include name="mobile"/>
+			</methods>
+		</class>
+		
+
+	</classes>
+</test>
+<!-- <test name="Build Configuration1">
+
+	<classes>
+		
+		<class name="" />
+
+	</classes>
+</test> -->
+  
+<!-- <parameter name="browser_nm" value="gecko" />	
+<parameter name="path_nm" value="D:\\Firefox Driver\\geckodriver.exe" />
+<parameter name="url_nm" value="https://www.seleniumeasy.com/test/" />
+  
+  <test name="browser firefox" >
+    <classes>
+      <class name="TestNG_Parameter.Browser_test">  
+      	 	<methods>
+                    <include name="Checkbox_Demo"/>
+         	</methods>
+      </class>
+    </classes>
+  </test> -->
+</suite> <!-- Suite -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Parameter Test  Suit]" parallel="tests">
+  <listeners>
+    <listener class-name="com.Flipkart.Utility.FlipkartReporter"/>
+    <listener class-name="com.Flipkart.Utility.FlipkartReporterBuildSummary"/>
+  </listeners>
+  <test name="Build Configuration(failed)" parallel="tests">
+    <classes>
+      <class name="com.Flipkart.Electonics.Mobile.MobilePhonesIndex">
+        <methods>
+          <include name="mobile"/>
+          <include name="BrowserSetup"/>
+          <include name="fetchSuiteConfiguration"/>
+          <include name="postConfig"/>
+        </methods>
+      </class> <!-- com.Flipkart.Electonics.Mobile.MobilePhonesIndex -->
+    </classes>
+  </test> <!-- Build Configuration(failed) -->
+</suite> <!-- Failed suite [Parameter Test  Suit] -->
