@@ -100,7 +100,7 @@ public class SeleniumInit
 // test			
 			
 		}
-		driver.get(TestURL);
+		//driver.get(TestURL);
 		driver.manage().window().maximize();
 		//driver.get(TestURL);
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
