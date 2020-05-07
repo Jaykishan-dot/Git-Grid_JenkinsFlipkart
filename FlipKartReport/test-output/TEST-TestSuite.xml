@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="4.435" tests="2" errors="0" skipped="1" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="58.865" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -19,7 +19,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\Jaykishan\AppData\Local\Temp\surefire4764544024196192144\surefirebooter8876909440281747636.jar C:\Users\Jaykishan\AppData\Local\Temp\surefire4764544024196192144 2020-05-06T19-07-41_521-jvmRun1 surefire5417791922321013687tmp surefire_01629942251675232489tmp"/>
+    <property name="sun.java.command" value="C:\Users\Jaykishan\AppData\Local\Temp\surefire7915221599532935189\surefirebooter7793252038635914290.jar C:\Users\Jaykishan\AppData\Local\Temp\surefire7915221599532935189 2020-05-07T09-01-39_770-jvmRun1 surefire1473999645709326112tmp surefire_0464103294949975325tmp"/>
     <property name="surefire.test.class.path" value="D:\Automation\Git-Grid_JenkinsFlipkart\target\test-classes;D:\Automation\Git-Grid_JenkinsFlipkart\target\classes;C:\Users\Jaykishan\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Jaykishan\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Jaykishan\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Jaykishan\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Jaykishan\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Jaykishan\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Jaykishan\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Jaykishan\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Jaykishan\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Jaykishan\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Jaykishan\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Jaykishan\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Jaykishan\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Jaykishan\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Jaykishan\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Jaykishan\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Jaykishan\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Jaykishan\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Jaykishan\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Jaykishan\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Jaykishan\.m2\repository\org\testng\testng\6.8\testng-6.8.jar;C:\Users\Jaykishan\.m2\repository\junit\junit\4.10\junit-4.10.jar;C:\Users\Jaykishan\.m2\repository\org\hamcrest\hamcrest-core\1.1\hamcrest-core-1.1.jar;C:\Users\Jaykishan\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\Jaykishan\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\Jaykishan\.m2\repository\org\yaml\snakeyaml\1.6\snakeyaml-1.6.jar;C:\Users\Jaykishan\.m2\repository\org\apache\commons\commons-email\1.5\commons-email-1.5.jar;C:\Users\Jaykishan\.m2\repository\com\sun\mail\javax.mail\1.5.6\javax.mail-1.5.6.jar;C:\Users\Jaykishan\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\Jaykishan"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\Jaykishan\AppData\Local\Temp\surefire4764544024196192144\surefirebooter8876909440281747636.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Jaykishan\AppData\Local\Temp\surefire7915221599532935189\surefirebooter7793252038635914290.jar"/>
     <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_60\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_60\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_60\jre\classes"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -61,27 +61,5 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="52.0"/>
   </properties>
-  <testcase name="BrowserSetup" classname="com.Flipkart.Electonics.Mobile.MobilePhonesIndex" time="4.159">
-    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;JAYKISHAN-PC&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.remote.UnreachableBrowserException"><![CDATA[org.openqa.selenium.remote.UnreachableBrowserException: 
-Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'JAYKISHAN-PC', ip: '192.168.0.104', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_60'
-Driver info: driver.version: RemoteWebDriver
-Caused by: java.net.ConnectException: Failed to connect to /192.168.0.104:4444
-Caused by: java.net.ConnectException: Connection refused: connect
-]]></failure>
-    <system-out><![CDATA[This is from common confing methodhttps://www.flipkart.com/
-This is from common confing methodhttps://www.flipkart.com/
-This is from common confing methodchrome
-This is from common confing methodD:\Automation\Flipkart\Resource\chromedriver.exe
-]]></system-out>
-    <system-err><![CDATA[May 06, 2020 7:07:53 PM org.openqa.selenium.remote.DesiredCapabilities chrome
-INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-May 06, 2020 7:07:53 PM org.openqa.selenium.remote.DesiredCapabilities chrome
-INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-]]></system-err>
-  </testcase>
-  <testcase name="mobile" classname="com.Flipkart.Electonics.Mobile.MobilePhonesIndex" time="0">
-    <skipped/>
-  </testcase>
+  <testcase name="mobile" classname="com.Flipkart.Electonics.Mobile.MobilePhonesIndex" time="21.549"/>
 </testsuite>

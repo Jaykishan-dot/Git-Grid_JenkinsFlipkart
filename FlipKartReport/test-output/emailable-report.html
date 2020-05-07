@@ -31,163 +31,28 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Build Configuration</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">1</td><td class="numi">0</td><td class="numi">3.7 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Build Configuration</td><td class="numi">1</td><td class="numi">1</td><td class="numi">0</td><td class="numi">0</td><td class="numi">56.6 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
-<tr><th colspan="4">Build Configuration &#8212; failed (configuration methods)</th></tr>
-<tr class="failedodd"><td rowspan="1">com.Flipkart.Electonics.Mobile.MobilePhonesIndex</td><td><a href="#m1"><b>BrowserSetup</b>  </a></td><td class="numi">1</td><td>1588772273326</td><td class="numi">0</td></tr>
-<tr><th colspan="4">Build Configuration &#8212; skipped</th></tr>
-<tr class="skippedodd"><td rowspan="1">com.Flipkart.Electonics.Mobile.MobilePhonesIndex</td><td><a href="#m2"><b>mobile</b>  </a></td><td class="numi">1</td><td>1588772276920</td><td class="numi">16</td></tr>
+<tr><th colspan="4">Build Configuration &#8212; passed</th></tr>
+<tr class="passedodd"><td rowspan="1">com.Flipkart.Electonics.Mobile.MobilePhonesIndex</td><td><a href="#m1"><b>mobile</b>  </a></td><td class="numi">1</td><td>1588822339618</td><td class="numi">21551</td></tr>
 </table>
 <h1>Build Configuration</h1>
-<h2 id="m1">com.Flipkart.Electonics.Mobile.MobilePhonesIndex:BrowserSetup</h2>
+<h2 id="m1">com.Flipkart.Electonics.Mobile.MobilePhonesIndex:mobile</h2>
 <div style="padding-left:3em">
-<p>Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
-System info: host: &apos;JAYKISHAN-PC&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_60&apos;
-Driver info: driver.version: RemoteWebDriver</p>
-org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:573)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
-<br/>at com.Flipkart.init.SeleniumInit.BrowserSetup(SeleniumInit.java:103)
-<br/>at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-<br/>at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-<br/>at java.lang.reflect.Method.invoke(Method.java:497)
-<br/>at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-<br/>at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
-<br/>at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-<br/>at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
-<br/>at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-<br/>at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-<br/>at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-<br/>at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-<br/>at org.testng.TestRunner.privateRun(TestRunner.java:767)
-<br/>at org.testng.TestRunner.run(TestRunner.java:617)
-<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-<br/>at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
-<br/>at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
-<br/>at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-<br/>at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-<br/>at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-<br/>at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-<br/>at java.lang.Thread.run(Thread.java:745)
-<br/>1 lines not shown
-<p>Caused by Failed to connect to /192.168.0.104:4444</p>
-okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:247)
-<br/>at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
-<br/>at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
-<br/>at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
-<br/>at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
-<br/>at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
-<br/>at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-<br/>at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-<br/>at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
-<br/>at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-<br/>at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-<br/>at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
-<br/>at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-<br/>at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
-<br/>at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-<br/>at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-<br/>at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
-<br/>at okhttp3.RealCall.execute(RealCall.java:77)
-<br/>at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
-<br/>at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
-<br/>at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
-<br/>at com.Flipkart.init.SeleniumInit.BrowserSetup(SeleniumInit.java:103)
-<br/>at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-<br/>at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-<br/>at java.lang.reflect.Method.invoke(Method.java:497)
-<br/>at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-<br/>at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
-<br/>at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-<br/>at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
-<br/>at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-<br/>at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-<br/>at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-<br/>at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-<br/>at org.testng.TestRunner.privateRun(TestRunner.java:767)
-<br/>at org.testng.TestRunner.run(TestRunner.java:617)
-<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-<br/>at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
-<br/>at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
-<br/>at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-<br/>at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-<br/>at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-<br/>at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-<br/>at java.lang.Thread.run(Thread.java:745)
-<br/>1 lines not shown
-<p>Caused by Connection refused: connect</p>
-java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
-<br/>at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:85)
-<br/>at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
-<br/>at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
-<br/>at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
-<br/>at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
-<br/>at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
-<br/>at java.net.Socket.connect(Socket.java:589)
-<br/>at okhttp3.internal.platform.Platform.connectSocket(Platform.java:129)
-<br/>at okhttp3.internal.connection.RealConnection.connectSocket(RealConnection.java:245)
-<br/>at okhttp3.internal.connection.RealConnection.connect(RealConnection.java:165)
-<br/>at okhttp3.internal.connection.StreamAllocation.findConnection(StreamAllocation.java:257)
-<br/>at okhttp3.internal.connection.StreamAllocation.findHealthyConnection(StreamAllocation.java:135)
-<br/>at okhttp3.internal.connection.StreamAllocation.newStream(StreamAllocation.java:114)
-<br/>at okhttp3.internal.connection.ConnectInterceptor.intercept(ConnectInterceptor.java:42)
-<br/>at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-<br/>at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-<br/>at okhttp3.internal.cache.CacheInterceptor.intercept(CacheInterceptor.java:93)
-<br/>at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-<br/>at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-<br/>at okhttp3.internal.http.BridgeInterceptor.intercept(BridgeInterceptor.java:93)
-<br/>at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-<br/>at okhttp3.internal.http.RetryAndFollowUpInterceptor.intercept(RetryAndFollowUpInterceptor.java:126)
-<br/>at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:147)
-<br/>at okhttp3.internal.http.RealInterceptorChain.proceed(RealInterceptorChain.java:121)
-<br/>at okhttp3.RealCall.getResponseWithInterceptorChain(RealCall.java:200)
-<br/>at okhttp3.RealCall.execute(RealCall.java:77)
-<br/>at org.openqa.selenium.remote.internal.OkHttpClient.execute(OkHttpClient.java:103)
-<br/>at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:105)
-<br/>at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
-<br/>at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:144)
-<br/>at com.Flipkart.init.SeleniumInit.BrowserSetup(SeleniumInit.java:103)
-<br/>at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-<br/>at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-<br/>at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-<br/>at java.lang.reflect.Method.invoke(Method.java:497)
-<br/>at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)
-<br/>at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
-<br/>at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
-<br/>at org.testng.internal.Invoker.invokeMethod(Invoker.java:653)
-<br/>at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
-<br/>at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
-<br/>at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-<br/>at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-<br/>at org.testng.TestRunner.privateRun(TestRunner.java:767)
-<br/>at org.testng.TestRunner.run(TestRunner.java:617)
-<br/>at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
-<br/>at org.testng.SuiteRunner.access$000(SuiteRunner.java:37)
-<br/>at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:368)
-<br/>at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
-<br/>at java.util.concurrent.FutureTask.run(FutureTask.java:266)
-<br/>at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
-<br/>at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
-<br/>at java.lang.Thread.run(Thread.java:745)
-<br/>1 lines not shown
+<b><Font color='BLUE'>Step 1: Open thehttps://www.flipkart.com/<font><br><b><br/>
+<u><Font color='Black'>Verify the 'X' button is available<font><br></u><br/>
+<b><Font color='green'>Result is Pass:? button is shown<font><br><b><br/>
+<b><Font color='BLUE'>Step 2: Click on 'X' button<font><br><b><br/>
+<u><Font color='Black'>Verify the 'Electronics' button is available<font><br></u><br/>
+<b><Font color='green'>Result is Pass:Electronics button is shown<font><br><b><br/>
+<b><Font color='BLUE'>Step 3: Hower on 'Electronics' button<font><br><b><br/>
+<b><Font color='BLUE'>Step 4: Click and select on mobile brands<font><br><b><br/>
+<b><Font color='BLUE'>Step 5: Click and drag the price slider<font><br><b><br/>
+<b><Font color='BLUE'>Step 6: Click on '4 GB' check box<font><br><b><br/>
+<b><Font color='BLUE'>Step 7: Click on ''Product Item link<font><br><b><br/>
+<b><Font color='BLUE'>Step 8: Click on ''Add to Cart' link<font><br><b><br/>
 </div>
-<p class="totop"><a href="#summary">back to summary</a></p>
-<h2 id="m2">com.Flipkart.Electonics.Mobile.MobilePhonesIndex:mobile</h2>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>
