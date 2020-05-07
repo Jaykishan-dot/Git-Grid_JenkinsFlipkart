@@ -65,7 +65,7 @@ public class SeleniumInit
 	@BeforeMethod(alwaysRun = true)
 	public void BrowserSetup() throws IOException, MessagingException, EmailException
 	{
-		URL remote_grid = new URL("http://192.168.0.104:4444/wd/hub");
+		URL remote_grid = new URL("http://192.168.0.104:4445/wd/hub");
 		DesiredCapabilities capability=null;	
 		Testbrowser=Common.getConfigValue("config.properties", "Browser");
 		
