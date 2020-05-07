@@ -38,20 +38,20 @@
       <![CDATA[<b><Font color='BLUE'>Step 8: Click on ''Add to Cart' link<font><br><b>]]>
     </line>
   </reporter-output>
-  <suite name="Parameter Test  Suit" duration-ms="56582" started-at="2020-05-07T03:31:44Z" finished-at="2020-05-07T03:32:41Z">
+  <suite name="Parameter Test  Suit" duration-ms="40054" started-at="2020-05-07T09:04:53Z" finished-at="2020-05-07T09:05:33Z">
     <groups>
     </groups>
-    <test name="Build Configuration" duration-ms="56582" started-at="2020-05-07T03:31:44Z" finished-at="2020-05-07T03:32:41Z">
+    <test name="Build Configuration" duration-ms="40054" started-at="2020-05-07T09:04:53Z" finished-at="2020-05-07T09:05:33Z">
       <class name="com.Flipkart.Electonics.Mobile.MobilePhonesIndex">
-        <test-method status="PASS" signature="fetchSuiteConfiguration()[pri:0, instance:com.Flipkart.Electonics.Mobile.MobilePhonesIndex@54a097cc]" name="fetchSuiteConfiguration" is-config="true" duration-ms="10" started-at="2020-05-07T09:01:44Z" finished-at="2020-05-07T09:01:44Z">
+        <test-method status="PASS" signature="fetchSuiteConfiguration()[pri:0, instance:com.Flipkart.Electonics.Mobile.MobilePhonesIndex@54a097cc]" name="fetchSuiteConfiguration" is-config="true" duration-ms="0" started-at="2020-05-07T14:34:53Z" finished-at="2020-05-07T14:34:53Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fetchSuiteConfiguration -->
-        <test-method status="PASS" signature="BrowserSetup()[pri:0, instance:com.Flipkart.Electonics.Mobile.MobilePhonesIndex@54a097cc]" name="BrowserSetup" is-config="true" duration-ms="34957" started-at="2020-05-07T09:01:44Z" finished-at="2020-05-07T09:02:19Z">
+        <test-method status="PASS" signature="BrowserSetup()[pri:0, instance:com.Flipkart.Electonics.Mobile.MobilePhonesIndex@54a097cc]" name="BrowserSetup" is-config="true" duration-ms="16107" started-at="2020-05-07T14:34:53Z" finished-at="2020-05-07T14:35:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BrowserSetup -->
-        <test-method status="PASS" signature="mobile()[pri:0, instance:com.Flipkart.Electonics.Mobile.MobilePhonesIndex@54a097cc]" name="mobile" duration-ms="21551" started-at="2020-05-07T09:02:19Z" finished-at="2020-05-07T09:02:41Z">
+        <test-method status="PASS" signature="mobile()[pri:0, instance:com.Flipkart.Electonics.Mobile.MobilePhonesIndex@54a097cc]" name="mobile" duration-ms="23928" started-at="2020-05-07T14:35:09Z" finished-at="2020-05-07T14:35:33Z">
           <reporter-output>
             <line>
               <![CDATA[<b><Font color='BLUE'>Step 1: Open thehttps://www.flipkart.com/<font><br><b>]]>
@@ -91,7 +91,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- mobile -->
-        <test-method status="PASS" signature="postConfig(org.testng.ITestResult)[pri:0, instance:com.Flipkart.Electonics.Mobile.MobilePhonesIndex@54a097cc]" name="postConfig" is-config="true" duration-ms="2" started-at="2020-05-07T09:02:41Z" finished-at="2020-05-07T09:02:41Z">
+        <test-method status="PASS" signature="postConfig(org.testng.ITestResult)[pri:0, instance:com.Flipkart.Electonics.Mobile.MobilePhonesIndex@54a097cc]" name="postConfig" is-config="true" duration-ms="1" started-at="2020-05-07T14:35:33Z" finished-at="2020-05-07T14:35:33Z">
           <params>
             <param index="0">
               <value>

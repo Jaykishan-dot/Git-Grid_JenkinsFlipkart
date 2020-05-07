@@ -68,7 +68,7 @@ public class SeleniumInit
 		URL remote_grid = new URL("http://192.168.0.104:4445/wd/hub");
 		DesiredCapabilities capability=null;	
 		Testbrowser=Common.getConfigValue("config.properties", "Browser");
-		
+		Testpath=Common.getConfigValue("config.properties", "Path");
 		
 		
 		if(Testbrowser.equalsIgnoreCase("gecko"))
@@ -81,9 +81,9 @@ public class SeleniumInit
 			//driver = new ChromeDriver();
 			
 			capability = DesiredCapabilities.chrome();
-			File driverpath = new File("Resource/chromedriver.exe");
+			/*File driverpath = new File("Resource/chromedriver.exe");
 			String path1 = driverpath.getAbsolutePath();
-			System.setProperty("webdriver.chrome.driver",path1);
+			System.setProperty("webdriver.chrome.driver",path1);*/
 			final ChromeOptions chromeOptions = new ChromeOptions();
 			capability.setBrowserName("chrome");
 			capability.setCapability(ChromeOptions.CAPABILITY, chromeOptions);
@@ -92,8 +92,8 @@ public class SeleniumInit
 			capability.setCapability("disable-popup-blocking", true);
 			osName = capability.getPlatform().name();
 			capability = DesiredCapabilities.chrome();
-			System.setProperty("webdriver.chrome.driver",
-					"E:\\chromedriver.exe");
+			//System.setProperty("webdriver.chrome.driver","E:\\chromedriver.exe");
+			System.setProperty("webdriver."+Testbrowser+".driver", Testpath);
 			capability.setBrowserName("chrome");
 			capability.setJavascriptEnabled(true);
 			osName = capability.getPlatform().name();
